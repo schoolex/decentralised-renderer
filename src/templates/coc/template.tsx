@@ -21,6 +21,8 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
       <h1>{document.name}</h1>
       <div>awarded to</div>
       <h2>{document.recipient.name}</h2>
+      <div>Total energy cost</div>
+      <h2>{document.total_energy}</h2>
     </div>
   );
 };

@@ -22,6 +22,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   recipient: {
     name: "John Doe",
   },
+  total_energy: 15.342,
   $template: {
     name: "COC",
     type: v2.TemplateType.EmbeddedRenderer,
