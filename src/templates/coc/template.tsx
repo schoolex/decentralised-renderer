@@ -14,15 +14,20 @@ const containerStyle = css`
 
 export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate> & { className?: string }> = ({
   document,
-  className = "",
+  className = ""
 }) => {
   return (
     <div css={containerStyle} className={className} id="custom-template">
-      <h1>{document.name}</h1>
-      <div>awarded to</div>
-      <h2>{document.recipient.name}</h2>
-      <div>Total energy cost</div>
-      <h2>{document.total_energy}</h2>
+      <img
+        src="https://media-exp1.licdn.com/dms/image/C560BAQHc_B18jdnAzw/company-logo_200_200/0/1588768564609?e=2147483647&v=beta&t=AseIlL7BWqjFGcu2nHO7tRgd1YGlU2B8xUbA3bF-rE4"
+        width="200"
+        height="200"
+      ></img>
+      <h1>Carbon Credit Cert</h1>
+      <div>Total energy cost of </div>
+      <h2>{document.total_energy} Kwh</h2>
+      <div>Start datetime : {document.start_date_time}</div>
+      <div>End datetime : {document.end_date_time}</div>
     </div>
   );
 };
