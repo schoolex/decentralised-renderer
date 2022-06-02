@@ -5,6 +5,7 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   recipient: {
     name: string;
   };
+  total_energy: number,
 }
 
 export const cocTemplateCertificate: CocTemplateCertificate = {
