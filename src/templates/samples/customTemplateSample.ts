@@ -22,8 +22,8 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   ],
   kWh: 15.342,
   evseId: "SUTD_TEST",
-  start_date_time: "2015-06-29T21:39:09Z",
-  end_date_time: "2015-06-29T23:37:32Z",
+  startDateTime: "2015-06-29T21:39:09Z",
+  endDateTime: "2015-06-29T23:37:32Z",
   $template: {
     name: "COC",
     type: v2.TemplateType.EmbeddedRenderer,
