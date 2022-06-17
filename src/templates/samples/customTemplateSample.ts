@@ -3,9 +3,7 @@ import { v2 } from "@govtechsg/open-attestation";
 export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   name: string;
   total_energy: number,
-  cdr_location: {
-    evse_id: string,
-  },
+  evseId: string,
   start_date_time: string,
   end_date_time: string,
 }
@@ -23,9 +21,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
     },
   ],
   total_energy: 15.342,
-  cdr_location: {
-    evse_id: "SUTD_TEST",
-  },
+  evseId: "SUTD_TEST",
   start_date_time: "2015-06-29T21:39:09Z",
   end_date_time: "2015-06-29T23:37:32Z",
   $template: {
