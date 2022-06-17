@@ -20,7 +20,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
       },
     },
   ],
-  total_energy: 15.342,
+  kWh: 15.342,
   evseId: "SUTD_TEST",
   start_date_time: "2015-06-29T21:39:09Z",
   end_date_time: "2015-06-29T23:37:32Z",
