@@ -2,10 +2,10 @@ import { v2 } from "@govtechsg/open-attestation";
 
 export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   name: string;
-  total_energy: number,
+  kWh: number,
   evseId: string,
-  start_date_time: string,
-  end_date_time: string,
+  startDateTime: string,
+  endDateTime: string,
 }
 
 export const cocTemplateCertificate: CocTemplateCertificate = {
