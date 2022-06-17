@@ -19,10 +19,9 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
   return (
     <div css={containerStyle} className={className} id="custom-template">
       <img
-        src="https://media-exp1.licdn.com/dms/image/C560BAQHc_B18jdnAzw/company-logo_200_200/0/1588768564609?e=2147483647&v=beta&t=AseIlL7BWqjFGcu2nHO7tRgd1YGlU2B8xUbA3bF-rE4"
-        width="200"
-        height="200"
-      ></img>
+                        src="https://i.im.ge/2022/06/17/r4U2pM.png"
+                        height="250"
+                    ></img>
       <h1>Carbon Credit Cert</h1>
       <div>Total energy cost of </div>
       <h2>{document.kWh} Kwh</h2>
