@@ -45,7 +45,6 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                       className="font-link"
                       style={{
                           marginTop: -70,
-                          fontWeight: "500",
                           textAlign: "center",
                           fontSize: 70,
                       }}
@@ -58,7 +57,6 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                   <Typography
                       style={{
                           marginTop: -35,
-                          fontWeight: "300",
                           textAlign: "center",
                           fontSize: 40,
                       }}
@@ -71,7 +69,6 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                   <Grid item xs={6} style={{ alignItems: "center" }}>
                       <Typography
                           style={{
-                              fontWeight: "300",
                               fontSize: 25,
                               textAlign: "center",
                           }}
@@ -81,7 +78,6 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                       <Typography
                           style={{
                               fontSize: 35,
-                              fontWeight: "350",
                               textAlign: "center",
                           }}
                       >
@@ -99,7 +95,6 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                   <Grid item xs={6} style={{ alignItems: "center" }}>
                       <Typography
                           style={{
-                              fontWeight: "300",
                               fontSize: 25,
                               textAlign: "center",
                           }}
@@ -109,7 +104,6 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                       <Typography
                           style={{
                               fontSize: 35,
-                              fontWeight: "350",
                               textAlign: "center",
                           }}
                       >
@@ -123,7 +117,6 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                       textAlign: "center",
                       marginTop: 30,
                       fontSize: 15,
-                      fontWeight: "300",
                   }}
               >
                 {format(parseISO(document.startDateTime), 'dd/MM/yyyy hh:mm')} - {format(parseISO(document.endDateTime), 'dd/MM/yyyy hh:mm')}
