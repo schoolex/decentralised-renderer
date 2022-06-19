@@ -7,11 +7,6 @@ import {
   Button,
   Typography,
   makeStyles,
-  Box,
-  useTheme,
-  Card,
-  CardContent,
-  TypographyProps,
   Grid,
 } from "@material-ui/core";
 import { format, parseISO } from 'date-fns';
@@ -119,7 +114,7 @@ export const CocTemplate: FunctionComponent<TemplateProps<CocTemplateCertificate
                       fontSize: 15,
                   }}
               >
-                {format(parseISO(document.startDateTime), 'dd/MM/yyyy hh:mm')} - {format(parseISO(document.endDateTime), 'dd/MM/yyyy hh:mm')}
+                {format(new Date(document.startDateTime), 'dd/MM/yyyy hh:mm')} - {format(new Date(document.endDateTime), 'dd/MM/yyyy hh:mm')}
               </Typography>
           </Div>
       </>
