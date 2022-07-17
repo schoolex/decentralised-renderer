@@ -4,12 +4,10 @@ import { css } from "@emotion/core";
 import { CocTemplateCertificate } from "../samples/customTemplateSample";
 import { Div, DivHor } from "./Divs";
 import {
-  Button,
   Typography,
-  makeStyles,
   Grid,
 } from "@material-ui/core";
-import { format, parseISO } from 'date-fns';
+import { format } from 'date-fns';
 
 
 const containerStyle = css`
